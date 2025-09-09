@@ -1,0 +1,58 @@
+/* tag de comentario */
+/* podemos selecionar uma tag pelo nome, pelo id (identificador único ou pela classe) */
+body{
+    background-color: rgb(102, 175, 71);
+    background-image: url("https://www.senaiac.org.br/images/2019/12/16/senai1--web.jpg");
+    /* Faz com que a iamgem não repita*/
+    background-repeat: no-repeat;
+    /* Faz com que a imagem cobra todo o espaço do site */
+    background-size: cover;
+
+}
+p{
+    color: blueviolet;
+}
+/* sempre que chamamos uma tag pelo id, adicionamos o sinal de "#" no início */
+#paragrafo{
+    color: rgb(229, 8, 8);
+}
+/* sempre que chamamos uma tag pelo classe, adicionamos o sinal de "." no início */
+.titulo{
+    /* adiciona um sublinhado ao texto */
+    text-decoration: underline;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* altera o nível de negrito da fonte */
+    font-weight: 400;
+
+}
+
+img{
+    /* Altera a altura da imagem */
+    height: 100%;
+    /* Altera a largura da imagem */
+    width: 100%;
+}
+
+ul{
+    /* altera o estilo da lista */
+    list-style: none;
+    display: flex;
+    li{
+        /* Cria um espaçamento interno */
+        padding: 20px;
+        /* Altera o arredomenmte dos itens  */
+        border-radius: 10px;
+        /* altera a cor de fundo */
+        background-color: rgb(208, 135, 222);
+        /* crie um espaçamento entre itens */
+        gap: 10px;
+
+
+        a{
+            /* altera a cor da fonte */
+            color: aqua;
+            text-decoration: none ;
+        }
+    }
+}
